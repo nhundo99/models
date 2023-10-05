@@ -1,0 +1,59 @@
+
+Session 4: DCF Structure and Discount Rate first Steps
+
+The discount rate is a lot less important than the actual estimation of the cashflow.
+
+Differ between Equity vs Firm discount rate
+correct currency
+nominal vs real
+
+Risk adjusted cost of Equity = fisk free rate + relative risk of company * equity risk premium
+
+We concentrate on the risk free rate in session 4
+
+tangent on risk:
+    estimation uncertainty vs economic uncertainty
+    micro uncertainty vs macro  uncertainty
+        macro should be included in the discount rate
+            when we have a somewhat diversed portfolio
+    discrete uncertainty vs continuous uncertainty
+    not all risk counts
+
+Market risk Models:
+    CAPM
+    APM
+    Multifacto
+    Proxy
+
+Risk Free Rate:
+    no default Risk
+    no reinvestment risk
+    time horizon matters
+    currencies matters
+    not all government securities are riskfree
+
+    for usd best is to use 10-year T bond rate to easily compare to 10-year bond of company
+    for real (instead of nominal) valuation the TIPs (inflatioin-indexed treasury) is better
+        for these two bonds we assume default free 
+
+    for euro
+        use the treasury bond rate from the country with the lowest rate in the euro zon
+            this is because we assume no default risk here
+            the adjustment for the default risk will be made later but NOT IN THE RISK FREE RATE
+
+    we can just take the 10-year bond rating if the country has a triple A rating
+
+    for riskier currencies
+        we can subtract a defaut spread to the 10-year bond rate to get a risk free rate (without the default risk) 
+
+    how to come up with the default spread
+        soverign bonds denominated in USD issued by sovereign
+            ds = emrg govt bond rate in usd - us T-bond rate with same maturity
+        sovereign CDS market
+            ds = sovereign cds spread (adjust with us spread)
+        sovereign-rating based spread
+
+        does not matter which one we choose, just stay consistent with it 
+        
+
+
