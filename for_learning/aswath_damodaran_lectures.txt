@@ -57,3 +57,36 @@ Risk Free Rate:
         
 
 
+
+
+Session 5: Equity Risk Premiums
+
+After we adjust for the default spread there exists differences in the risk free rate for different currencies/counties
+these are there due to inflatioin
+
+how to determine the risk free rate when there are no government bonds?
+    Riskfreerate currency = (1+riskfreerate US) * ((1+expectedinflation currency)/(1+expectedinflation us)) - 1
+        espected inflation in the foreign currency often has to be estimated (if not correct is not very bad)
+            will cancel out in cash flow and discount rate
+
+We should never normalize risk free rates to historical normal risk free rates
+
+
+Equity Risk Premium
+ERP for foreign countries
+    erp for country assuming mature market + country risk premium for brazil (we add here the same number as we subtracted in the risk free rate for default spread)
+
+    for countries with liquid markets:
+        erp = risk premium us * std. deviation country equity / std. deviation us equity
+
+    combined approach:
+        erp = default spread country bond * std. deviation country equity / std. deviation country bond 
+    
+but we want to value companies not countries, so how do we get from a countries risk premium to a companys risk premium
+    a companys risk premium should be determined where it does it's business
+        natural ressource companies are mostly done with the production
+        sometimes this is where most of the revenues come from and sometimes where the production is handled
+            best is to do a weighted approach by the regions/countries 
+
+
+
